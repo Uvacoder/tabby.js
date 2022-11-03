@@ -1,5 +1,5 @@
 # Tabby
-Simple Vue 3 tab component
+Simple Vue 3 tab component. Can be used in both SFC projects or vanilla ESM
 
 ## Example
 Import the `Tabs` and `Tab` components from the component file, and include components as necessary:
