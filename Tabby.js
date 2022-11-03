@@ -1,4 +1,4 @@
-import { ref, useSlots } = Vue
+const { ref, useSlots } = Vue
 
 export const Tab = {
   template: `<div class="tab">
@@ -6,7 +6,7 @@ export const Tab = {
   </div>`
 }
 
-export const Tabs {
+export const Tabs = {
   template: `<div class="tabs">
     <div class="tabs-btns">
       <div v-for="(t, i) in slots.default()" :key="i" :class="['tab-btn',{active: active == i}]" @click="active = i">
